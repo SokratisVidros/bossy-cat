@@ -1,11 +1,11 @@
-export class Cat {
+class Cat {
 
   constructor(name='Simon') {
     this.name = name
   }
 
   meow() {
-    'MROW'
+    return 'MROW'
   }
 
   destroyTheHouse() {
@@ -13,10 +13,12 @@ export class Cat {
   }
 
   eat() {
-    'nom nom nom'
+    return 'nom nom nom'
   }
 
   sleep(callback) {
     setTimeout(callback, 1000)
   }
 }
+
+module.exports = Cat;

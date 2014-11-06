@@ -4,7 +4,7 @@
   "description": "",
   "main": "final-boss-cat.js",
   "scripts": {
-    "transpile": ""
+    "transpile": "node_modules/es6-transpiler/es6toes5 final-boss-cat.js > final-boss-cat.es5.js",
     "test": "tape test/*.js"
   },
   "repository": {
