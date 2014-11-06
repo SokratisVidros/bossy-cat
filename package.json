@@ -4,6 +4,7 @@
   "description": "",
   "main": "final-boss-cat.js",
   "scripts": {
+    "transpile": ""
     "test": "tape test/*.js"
   },
   "repository": {
@@ -13,6 +14,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "tape": "~3.0.2"
+    "tape": "~3.0.2",
+    "es6-transpiler": "~0.7.17"
   }
 }
