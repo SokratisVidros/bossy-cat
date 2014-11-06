@@ -1,3 +1,6 @@
-test = require('tape');
+var test = require('tape');
 
-test
+test('dummy test', function (t) {
+  t.equals(true, true);
+  t.end();
+});
